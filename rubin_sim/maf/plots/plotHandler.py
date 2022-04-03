@@ -60,12 +60,12 @@ class PlotHandler(object):
         self.trimWhitespace = trimWhitespace
         self.thumbnail = thumbnail
         self.filtercolors = {
-            "u": "cyan",
-            "g": "g",
-            "r": "y",
-            "i": "r",
-            "z": "m",
-            "y": "k",
+            "u": "#66CCEE",
+            "g": "#228833",
+            "r": "#CCBB44",
+            "i": "#EE6677",
+            "z": "#AA3377",
+            "y": "#4477AA",
             " ": None,
         }
         self.filterorder = {" ": -1, "u": 0, "g": 1, "r": 2, "i": 3, "z": 4, "y": 5}
